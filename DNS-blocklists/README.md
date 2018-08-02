@@ -1,4 +1,4 @@
-Feel free to copy my black-, block- and whitelists. 
+Feel free to copy my black-, block-, regex- and whitelists. 
 
 * **Whitelist.txt**: basic list of domains which are to whitelisted, please add your own whitelist preferences to your local whitelist.
 * **Blackist.txt**: the lists from which my blocklist is being created, I try to keep this list updated. 
