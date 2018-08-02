@@ -1,4 +1,4 @@
-These files work with Pihole, I created some lists and extra addons - all free to use, but please put up a link to my respository when using them.
+These files work with [Pihole](https://pi-hole.net/), I created some lists and extra addons - all free to use, but please put up a link to my respository when using them.
 
 * **Whitelist.txt**: basic list of domains which are to whitelisted, please add your own whitelist preferences to your local whitelist.
 * **Blackist.txt**: the lists from which my blocklist is being created, I try to keep this list updated. 
