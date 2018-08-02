@@ -1,0 +1,4 @@
+# Discontinued
+
+I have chosen to discontinue this list since it would still not whitelist all DNS addresses one uses because not everyone browses the same websites.
+In the future I might be uploading a basic list of about ~100 addresses which I think everyone uses, as soon as I will find time.
