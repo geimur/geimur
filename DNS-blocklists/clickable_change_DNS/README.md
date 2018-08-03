@@ -1,6 +1,9 @@
 # Guide to create a clickable solution to temporarily change the IPv4 DNS server for a Windows Computer.
 
 This is the quickest solution I made so far, it takes a minute or 3 to set up, but once it's done it works pretty convenient.
+If all steps are taken correctly, there should be two buttons being created each with a nice icon such that after clicking the prefered DNS should be changed to bypass the pihole, when clicking on *OFF* and after 10 minutes it should automatically be turned on again.
+If the user wants to activate this earlier (s)he can just click *ON*.
+
 
 1. Fire up Command Prompt (cmd.exe)
 2. Find the name of your (wireless) network, by typing **`ipconfig`** or another preferred method.
@@ -24,3 +27,4 @@ This is the quickest solution I made so far, it takes a minute or 3 to set up, b
 13. In the location field **`schtasks /run /tn "NEWTASK"`** - replace with the correct name you gave it in step 9.
 14. Give the short cut a name, and you are done.
 15. Now repeat steps 7 to 14, and optionally give the sortcuts a nice image to visually see what it does (green to turn the connection to the pi on, red vice versa).
+16. Create a new rule in the Windows configuration (many possible ways) such that *ON* is automatically started when booting to Windows.
